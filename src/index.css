@@ -1,0 +1,19 @@
+/* Ensures the whole page takes up full height */
+html, body, #root {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Makes sure the main content grows to push footer down */
+.main-content {
+    flex-grow: 1;
+}
+
+/* Footer Styling */
+.myfooter {
+    background-color: #333; /* Or any background color */
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
